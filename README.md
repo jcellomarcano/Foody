@@ -5,7 +5,7 @@ Modern Food Recipes App - Android Development with Clean Architecture
 ![alt text](https://i.postimg.cc/6pt0GT54/Thumbnail-1.png)
 
 # Elements used
-- Kotlin
+- Kotlin v - 1.5.10
 - MVVM Clean Architecture
 - Navigation Component
 - Dagger - Hilt Dependecy Injection
@@ -18,6 +18,7 @@ Modern Food Recipes App - Android Development with Clean Architecture
 - View Binding
 - Motion Layout
 - Dark Theme
+- Firebase Crashlitycs and Authentication
 and others.
 
 <img src="https://github.com/jcellomarcanoeascanio/Foody/blob/master/images/Screenshot_2021-01-18-11-31-37-467_com.jcellomarcano.foody.jpg?raw=true" width="300">
