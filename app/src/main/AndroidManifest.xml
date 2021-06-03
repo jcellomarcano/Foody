@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcellomarcano.foody">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.jcellomarcano.foody.MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.jcellomarcano.foody.ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jcellomarcano.foody.ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login">
+
+        </activity>
+        <activity
+            android:name="com.jcellomarcano.foody.ui.DetailsActivity"
+            android:label="Details"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/DetailsActivityStyle" />
+        <activity
+            android:name="com.jcellomarcano.foody.ui.MainActivity"
+            android:screenOrientation="fullSensor"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
